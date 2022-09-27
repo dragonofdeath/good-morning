@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "target": "ESNext",
+        "outDir": "./dist",
+        "forceConsistentCasingInFileNames": true,
+        "preserveWatchOutput": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "watch": true,
+        "strict": true,
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+    },
+    "include": [
+        "**/src/**/*"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/.*/",
+    ]
+}
