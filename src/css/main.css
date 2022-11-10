@@ -4,7 +4,7 @@ body {
 }
 
 #root {
-    @apply flex flex-col justify-center items-center gap-8 min-w-[90vw] min-h-[90vh] xl:min-w-[80vw] xl:min-h-[80vh];
+    @apply flex flex-col justify-center items-center gap-8 w-[90vw] min-h-[90vh] xl:w-[80vw] xl:min-h-[80vh];
     @apply bg-slate-800 rounded-md border border-slate-700;
 }
 
