@@ -1,7 +1,13 @@
 {
     "name": "react-typescript-esbuild-tailwind-template",
     "description": "Starter template for React, TypeScript, ESBuild and Tailwind CSS.",
-    "keywords": ["react", "typescript", "esbuild", "tailwind", "tailwindcss"],
+    "keywords": [
+        "react",
+        "typescript",
+        "esbuild",
+        "tailwind",
+        "tailwindcss"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/barca-reddit/react-typescript-esbuild-tailwind-template.git"
@@ -36,5 +42,6 @@
         "postcss": "^8.4.26",
         "tailwindcss": "^3.3.3",
         "typescript": "^5.1.6"
-    }
+    },
+    "packageManager": "yarn@4.6.0"
 }
